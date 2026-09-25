@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Lakshmana Kontemukkula" />
+    <meta
+      name="description"
+      content="An AI-assisted concept page exploring a future adaptive study workspace."
+    />
+    <meta name="theme-color" content="#f6f5f0" />
+    <title>AI Lab | Lakshmana Kontemukkula</title>
+    <link rel="icon" href="./images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="lab-page">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="./index.html" aria-label="Lakshmana home"
+          >LK<span>.</span
+          ><span class="brand-name"
+            >Lakshmana<span class="brand-role">Software &amp; systems</span></span
+          ></a
+        >
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          Menu
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a class="nav-link" href="./index.html">Home</a>
+          <a class="nav-link" href="./projects.html">Projects</a>
+          <a class="nav-link is-active" aria-current="page" href="./ai-lab.html">AI Lab</a>
+          <a class="button button-small" href="mailto:lakshmana.2003k@gmail.com"
+            >Let’s talk <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+      <section class="page-hero container reveal">
+        <p class="eyebrow">The experimental corner / AI-assisted</p>
+        <h1>Less scattered.<br /><span>More in flow.</span></h1>
+        <p>
+          Meet FocusFlow, an AI-assisted concept for a calmer student workspace. Match your next
+          task to your energy, and make room for the work that matters. This interactive demo uses
+          sample tasks; it does not save changes.
+        </p>
+      </section>
+
+      <section class="section container concept-shell" aria-labelledby="concept-title">
+        <div class="concept-header reveal">
+          <div>
+            <p class="eyebrow">FocusFlow / Interactive concept</p>
+            <h2 id="concept-title">Today’s focus map</h2>
+          </div>
+          <div class="focus-score" role="img" aria-label="Example focus score: 74 out of 100">
+            <span>74</span>
+            <small>sample focus score</small>
+          </div>
+        </div>
+
+        <div class="energy-toolbar">
+          <p id="energy-label">How’s your energy?</p>
+          <div class="energy-options" role="group" aria-labelledby="energy-label">
+            <button
+              class="energy-button is-active"
+              type="button"
+              data-energy="high"
+              aria-pressed="true"
+            >
+              High · Deep work
+            </button>
+            <button class="energy-button" type="button" data-energy="medium" aria-pressed="false">
+              Steady · Quick win
+            </button>
+            <button class="energy-button" type="button" data-energy="low" aria-pressed="false">
+              Low · Light lift
+            </button>
+          </div>
+        </div>
+        <p class="energy-summary" aria-live="polite">
+          High energy: start with Web Development Homepage.
+        </p>
+        <div class="concept-grid">
+          <article
+            class="concept-panel concept-primary reveal is-recommended"
+            data-task-energy="high"
+          >
+            <p class="panel-label">Deep work</p>
+            <h3>Web Development Homepage</h3>
+            <p>Finish accessibility checks, run validation, and record the walkthrough.</p>
+            <label class="progress-label" for="homepage-progress">Homepage progress</label>
+            <progress id="homepage-progress" class="progress-track" value="78" max="100">
+              78%
+            </progress>
+            <div class="panel-meta"><span>78% complete</span><span>High energy</span></div>
+          </article>
+
+          <article class="concept-panel reveal" data-task-energy="medium">
+            <p class="panel-label">Quick win</p>
+            <h3>HCI reading notes</h3>
+            <p>Capture three takeaways and one discussion question.</p>
+            <div class="mini-badge">25 min</div>
+          </article>
+
+          <article class="concept-panel reveal" data-task-energy="low">
+            <p class="panel-label">Low energy</p>
+            <h3>Portfolio cleanup</h3>
+            <p>Rename image files and review alternative text.</p>
+            <div class="mini-badge">15 min</div>
+          </article>
+
+          <article class="concept-panel concept-wide reveal">
+            <div>
+              <p class="panel-label">Why this concept is different</p>
+              <h3>Plan around attention, not just deadlines.</h3>
+            </div>
+            <p>
+              Traditional task lists treat every item as equal. FocusFlow adds an effort dimension
+              so a student can match demanding work to periods when they have the most attention.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">A simple study rhythm</p>
+          <h2>Make room for your next small win.</h2>
+        </div>
+        <div class="about-grid">
+          <article class="glass-card reveal">
+            <h3>01 / Check in</h3>
+            <p>
+              Choose the energy level that fits your moment. Use the focus map to find a starting
+              point, whether you’re ready for deep work or a lighter task.
+            </p>
+          </article>
+          <article class="glass-card reveal">
+            <h3>02 / Make it specific</h3>
+            <p>
+              Pick one clear next step: finish a function, capture three reading notes, or review
+              image descriptions. Give yourself a small, concrete target.
+            </p>
+          </article>
+          <article class="glass-card reveal">
+            <h3>03 / Pause and reset</h3>
+            <p>
+              After a work session, note what you finished and take a break. Check in again before
+              choosing your next task—your plan can change with your energy.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>
+          Lakshmana Kontemukkula<span class="footer-note">Curiosity. Code. Connected systems.</span>
+        </p>
+        <p>
+          <span id="current-year"></span> · Boston, MA
+          <a class="footer-top" href="#main-content">Back to top ↑</a>
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Lakshmana Kontemukkula" />
+    <meta
+      name="description"
+      content="Selected software, IoT, and machine learning projects by Lakshmana Kontemukkula."
+    />
+    <meta name="theme-color" content="#f6f5f0" />
+    <title>Projects | Lakshmana Kontemukkula</title>
+    <link rel="icon" href="./images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="projects-page">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="./index.html" aria-label="Lakshmana home"
+          >LK<span>.</span
+          ><span class="brand-name"
+            >Lakshmana<span class="brand-role">Software &amp; systems</span></span
+          ></a
+        >
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          Menu
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a class="nav-link" href="./index.html">Home</a>
+          <a class="nav-link is-active" aria-current="page" href="./projects.html">Projects</a>
+          <a class="nav-link" href="./ai-lab.html">AI Lab</a>
+          <a class="button button-small" href="mailto:lakshmana.2003k@gmail.com"
+            >Let’s talk <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+      <section class="page-hero container reveal">
+        <p class="eyebrow">The project collection / 01—08</p>
+        <h1>Real problems.<br /><span>Connected solutions.</span></h1>
+        <p>
+          These case studies show how I approached connected systems, edge AI, web development, and
+          machine learning evaluation.
+        </p>
+      </section>
+
+      <nav class="project-jump container" aria-label="Jump to a project">
+        <a href="#sea-water"><span>01</span> Industrial IoT ↘</a>
+        <a href="#jetson"><span>02</span> Edge vision ↘</a>
+        <a href="#student-system"><span>03</span> Web systems ↘</a>
+        <a href="#pneumonia"><span>04</span> Applied ML ↘</a>
+        <a href="#traffic-control"><span>05</span> Traffic Signal Control ↘</a
+        ><a href="#smart-water"><span>06</span> Smart Water Management ↘</a
+        ><a href="#food-quality"><span>07</span> Food Quality Monitoring ↘</a
+        ><a href="#project-recommender"><span>08</span> Internal Project Recommender ↘</a>
+      </nav>
+      <section class="case-study-list container" aria-label="Project case studies">
+        <article class="case-study reveal" id="sea-water">
+          <div class="case-study-index">01</div>
+          <div class="case-study-copy">
+            <div class="project-tech">
+              <span>Industrial IoT</span><span>Modbus</span><span>Web</span>
+            </div>
+            <h2>Sea Water Purifier Monitoring</h2>
+            <p>
+              During my Tech Mahindra project internship, I worked with data flowing from industrial
+              equipment through a MOXA gateway. My work included decoding Modbus ASCII frames,
+              validating LRC values, mapping registers, and helping present measurements through a
+              responsive monitoring dashboard.
+            </p>
+            <h3>What I learned</h3>
+            <p>
+              Hardware-to-software systems fail at boundaries. I learned to treat protocol parsing,
+              data validation, and interface responsiveness as one connected user experience.
+            </p>
+          </div>
+          <img
+            class="case-study-image"
+            width="520"
+            height="360"
+            loading="lazy"
+            src="./images/iot-dashboard.png"
+            alt="Illustration of an industrial IoT monitoring dashboard"
+          />
+        </article>
+
+        <article class="case-study reveal" id="jetson">
+          <div class="case-study-index">02</div>
+          <div class="case-study-copy">
+            <div class="project-tech">
+              <span>Edge AI</span><span>OpenCV</span><span>Jetson Nano</span>
+            </div>
+            <h2>Jetson Nano Vision System</h2>
+            <p>
+              This work explored object detection and number-plate recognition on an embedded GPU
+              platform. I worked through camera capture, OpenCV setup, CUDA-related checks, and the
+              practical constraints of deploying computer vision outside a laptop environment.
+            </p>
+            <h3>What I learned</h3>
+            <p>
+              A model is only one part of an AI product. Camera I/O, hardware compatibility,
+              latency, networking, and deployment decisions determine whether the system works.
+            </p>
+          </div>
+          <img
+            class="case-study-image"
+            width="520"
+            height="360"
+            loading="lazy"
+            src="./images/edge-ai.png"
+            alt="Illustration of edge AI object detection on a camera feed"
+          />
+        </article>
+
+        <article class="case-study reveal" id="student-system">
+          <div class="case-study-index">03</div>
+          <div class="case-study-copy">
+            <div class="project-tech"><span>Web</span><span>Node.js</span><span>MySQL</span></div>
+            <h2>Student Management System</h2>
+            <p>
+              I developed a CRUD-based student application with an Express API, MySQL persistence,
+              authentication, and a responsive browser interface. The project evolved from basic
+              routes into a more complete system with protected operations and deployment testing.
+            </p>
+            <h3>What I learned</h3>
+            <p>
+              Building a full flow made the connections between UI state, API design, database
+              constraints, and authentication much clearer than studying each topic in isolation.
+            </p>
+          </div>
+          <img
+            class="case-study-image"
+            width="520"
+            height="360"
+            loading="lazy"
+            src="./images/web-system.png"
+            alt="Illustration of a web application connected to an API and database"
+          />
+        </article>
+
+        <article class="case-study reveal" id="pneumonia">
+          <div class="case-study-index">04</div>
+          <div class="case-study-copy">
+            <div class="project-tech">
+              <span>Machine Learning</span><span>CNN</span><span>Evaluation</span>
+            </div>
+            <h2>Pneumonia Detection</h2>
+            <p>
+              I compared several convolutional neural network approaches for chest X-ray
+              classification, including transfer-learning models and a majority-vote ensemble. The
+              evaluation showed that the ensemble was not automatically better than the strongest
+              individual architecture.
+            </p>
+            <h3>What I learned</h3>
+            <p>
+              More models do not guarantee a better result. Careful evaluation and understanding
+              error patterns matter more than adding complexity for its own sake.
+            </p>
+          </div>
+          <img
+            class="case-study-image"
+            width="520"
+            height="360"
+            loading="lazy"
+            src="./images/ml-evaluation.png"
+            alt="Illustration of machine learning model comparison charts"
+          />
+        </article>
+        <article class="case-study reveal" id="traffic-control">
+          <div class="case-study-index">05</div>
+          <div class="case-study-copy">
+            <div class="project-tech"><span>Python · PyTorch</span></div>
+            <h2>Traffic Signal Control</h2>
+            <p>
+              Built a custom intersection simulator with DQN, Double DQN, Dueling DQN, tabular
+              Q-Learning, SARSA, and a fixed-time baseline. Initial learned policies underperformed,
+              prompting a redesign of the reward around queue length, a minimum-green constraint,
+              and a phase-duration state feature.
+            </p>
+            <h3>Evaluation</h3>
+            <p>
+              After the redesign, deep-RL agents reduced average waiting time by roughly 78% against
+              the fixed-time baseline over 20 evaluation episodes, while maintaining throughput.
+              This is a result from the project’s simulator, not a claim about real-world traffic.
+            </p>
+          </div>
+          <img
+            class="case-study-image"
+            width="520"
+            height="360"
+            loading="lazy"
+            src="./images/traffic-control.png"
+            alt="Concept illustration for Traffic Signal Control"
+          />
+        </article>
+        <article class="case-study reveal" id="smart-water">
+          <div class="case-study-index">06</div>
+          <div class="case-study-copy">
+            <div class="project-tech"><span>IoT · Embedded C</span></div>
+            <h2>Smart Water Management</h2>
+            <p>
+              Built an IoT system to monitor water levels, usage, and quality in real time.
+              Automated control and a connected mobile application supported remote monitoring and
+              timely alerts.
+            </p>
+            <h3>Purpose</h3>
+            <p>
+              Help users respond to changing water conditions and support proactive maintenance
+              through connected sensing and control.
+            </p>
+          </div>
+          <img
+            class="case-study-image"
+            width="520"
+            height="360"
+            loading="lazy"
+            src="./images/iot-dashboard.png"
+            alt="Concept illustration for Smart Water Management"
+          />
+        </article>
+        <article class="case-study reveal" id="food-quality">
+          <div class="case-study-index">07</div>
+          <div class="case-study-copy">
+            <div class="project-tech"><span>IoT · Embedded C</span></div>
+            <h2>Food Quality Monitoring</h2>
+            <p>
+              Designed and deployed a sensor-based system to monitor food-quality parameters,
+              including temperature and humidity. A mobile notification system alerted users when
+              readings deviated from predefined thresholds.
+            </p>
+            <h3>Purpose</h3>
+            <p>
+              Make changing storage conditions visible through measurements and threshold-based
+              alerts. These environmental readings support monitoring; they do not establish that
+              food is safe to consume.
+            </p>
+          </div>
+          <img
+            class="case-study-image"
+            width="520"
+            height="360"
+            loading="lazy"
+            src="./images/food-quality.png"
+            alt="Concept illustration for Food Quality Monitoring"
+          />
+        </article>
+        <article class="case-study reveal" id="project-recommender">
+          <div class="case-study-index">08</div>
+          <div class="case-study-copy">
+            <div class="project-tech"><span>Python · Scikit-learn · Pinecone</span></div>
+            <h2>Internal Project Recommender</h2>
+            <p>
+              During the Tech Mahindra internship, developed an internal project recommender using
+              Python, Scikit-learn, and Pinecone vector similarity search. The system helped
+              colleagues discover relevant work across a collection of more than 300 documents.
+            </p>
+            <h3>Reported outcome</h3>
+            <p>
+              The résumé reports a 40% reduction in search time. The work was delivered with a
+              six-member cross-functional team; the internal data and application are not presented
+              as a public demo.
+            </p>
+          </div>
+          <img
+            class="case-study-image"
+            width="520"
+            height="360"
+            loading="lazy"
+            src="./images/web-system.png"
+            alt="Concept illustration for Internal Project Recommender"
+          />
+        </article>
+      </section>
+
+      <section class="section cta-section">
+        <div class="container cta-card reveal">
+          <div>
+            <p class="eyebrow">Next / The experimental corner</p>
+            <h2>Where curiosity goes next.</h2>
+          </div>
+          <a class="button" href="./ai-lab.html">Visit AI Lab</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>
+          Lakshmana Kontemukkula<span class="footer-note">Curiosity. Code. Connected systems.</span>
+        </p>
+        <p>
+          <span id="current-year"></span> · Boston, MA
+          <a class="footer-top" href="#main-content">Back to top ↑</a>
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
