@@ -11,8 +11,6 @@ MS in Computer Science, Northeastern University · Expected May 2027
 
 ## Class Link
 
-Replace this before submission with the official course/Canvas link:
-
 `https://johnguerra.co/classes/webDevelopment_online_fall_2026/`
 
 ## Project Objective
@@ -139,7 +137,7 @@ A second interaction called **Project Spotlight** cycles through project lessons
 
 ## GenAI Use
 
-I used ChatGPT to get ideas. It helped me brainstorm the website structure, guided me on how to improve improve the visual design, organize parts of the HTML/CSS, review JavaScript functionality, and check the project against the assignment rubric.
+I used ChatGPT-5.6 Sol to get ideas. It helped me brainstorm the website structure, guided me on how to improve improve the visual design, organize parts of the HTML/CSS, review JavaScript functionality, and check the project against the assignment rubric.
 
 Prompts included:
 
