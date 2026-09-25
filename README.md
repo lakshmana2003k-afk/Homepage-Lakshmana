@@ -23,7 +23,7 @@ The goal of this project is to create a meaningful public homepage that introduc
 
 After GitHub Pages deployment, replace this with the public URL:
 
-`PASTE_GITHUB_PAGES_URL_HERE`
+`https://lakshmana2003k-afk.github.io/Homepage-Lakshmana/`
 
 ## Screenshot
 
