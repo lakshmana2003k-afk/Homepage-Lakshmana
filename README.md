@@ -13,7 +13,7 @@ MS in Computer Science, Northeastern University · Expected May 2027
 
 Replace this before submission with the official course/Canvas link:
 
-`PASTE_CLASS_LINK_HERE`
+`https://johnguerra.co/classes/webDevelopment_online_fall_2026/`
 
 ## Project Objective
 
